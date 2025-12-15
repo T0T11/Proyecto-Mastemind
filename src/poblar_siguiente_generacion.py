@@ -1,6 +1,6 @@
 import random
-from parametros import *
-from calcular_fitness import calcular_fitness
+from src.parametros import *
+from src.calcular_fitness import calcular_fitness
 
 def poblar_siguiente_generacion(poblacion_actual, descendencia, solucion):
 

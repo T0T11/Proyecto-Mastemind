@@ -1,4 +1,4 @@
-from parametros import *
+from src.parametros import *
 def calcular_fitness(individuo,solucion):
     fitness = 0
     for i in range(len(individuo)):
