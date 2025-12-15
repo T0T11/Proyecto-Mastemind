@@ -1,0 +1,22 @@
+import random
+from parametros import *
+from calcular_fitness import calcular_fitness
+from reproducir_descendencia import *
+
+def poblar_siguiente_generacion(poblacion_actual, descendencia, solucion):
+
+    poblacion_total = poblacion_actual + descendencia
+
+    fitnesses = [ 
+        calcular_fitness(ind,solucion) 
+        for ind in poblacion_total
+    ]
+
+    nueva_poblacion = random.choices(
+        population = poblacion_total,
+        wheights = fitnesses,
+        k = TAMAÑO_POBLACION
+    )
+
+    return [individuo[:] for individuo in nueva_poblacion]
+                                        
