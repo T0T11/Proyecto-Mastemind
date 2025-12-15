@@ -8,8 +8,8 @@ def seleccionar_padres(poblacion, solucion):
     ]
 
     padres = random.choices(
-        population = poblacion,
-        weights = fitnesses,
+        poblacion,
+        fitnesses,
         k = num_padres
     )
     return padres
