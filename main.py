@@ -5,6 +5,7 @@ from src.seleccionar_padres import seleccionar_padres
 from src.reproducir_descendencia import reproducir_descendencia, cruzar, mutar
 from src.poblar_siguiente_generacion import poblar_siguiente_generacion
 from src.calcular_fitness import calcular_fitness
+from src.visual_mastermind import mostrar_feedback
 from src.calcular_clavijas import calcular_clavijas
 
 def main():
@@ -17,8 +18,7 @@ def main():
         mejor_fitness = calcular_fitness(mejor_cromosoma, solucion)
         rojas, blancas = calcular_clavijas(mejor_cromosoma, solucion)
 
-        print(f"Generación {gen}: Mejor individuo: {mejor_cromosoma} | Fitness: {mejor_fitness} | Clavijas rojas: {rojas}, Clavijas blancas: {blancas} ")
-
+        mostrar_feedback(mejor_cromosoma, rojas, blancas, gen, mejor_fitness)
         if mejor_fitness == 8:
             print("¡Solución encontrada!")
             break
