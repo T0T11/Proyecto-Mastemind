@@ -16,12 +16,13 @@ def calcular_clavijas(cromosoma, solucion):
 
     blancas = 0
     for alelo in contar_cromosomas:
-        cantidad_cromosoma = colores_cromosoma[alelo]
+        cantidad_cromosoma = contar_cromosomas[alelo]
         cantidad_solucion = contar_solucion[alelo]
-    if cantidad_cromosoma < cantidad_solucion:
-        blancas += cantidad_cromosoma
-    else:
-        blancas += cantidad_solucion
+        if cantidad_cromosoma < cantidad_solucion:
+            blancas += cantidad_cromosoma
+        else:
+            blancas += cantidad_solucion
+    return rojas, blancas
 
 
 
