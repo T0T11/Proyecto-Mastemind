@@ -17,5 +17,5 @@ def poblar_siguiente_generacion(poblacion_actual, descendencia, solucion):
         k = TAMAÑO_POBLACION
     )
 
-    return [individuo[:] for individuo in nueva_poblacion]
+    return [cromosoma[:] for cromosoma in nueva_poblacion]
                                         

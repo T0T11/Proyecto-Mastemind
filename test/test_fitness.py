@@ -4,9 +4,9 @@ from src.calcular_fitness import calcular_fitness
 def test_fitness_exactos():
 
     solucion = ["rojo", "azul", "verde", "amarillo"]
-    individuo = ["rojo", "azul", "verde", "amarillo"]
+    cromosoma = ["rojo", "azul", "verde", "amarillo"]
 
-    fitness = calcular_fitness(individuo, solucion)
+    fitness = calcular_fitness(cromosoma, solucion)
 
     assert fitness == 8
 
@@ -14,9 +14,9 @@ def test_fitness_exactos():
 def test_fitness_color_en_otro_sitio():
 
     solucion = ["rojo", "azul", "verde", "amarillo"]
-    individuo = ["azul", "verde", "amarillo", "rojo"]
+    cromosoma = ["azul", "verde", "amarillo", "rojo"]
 
-    fitness = calcular_fitness(individuo, solucion)
+    fitness = calcular_fitness(cromosoma, solucion)
 
     assert fitness == 4
 
@@ -24,9 +24,9 @@ def test_fitness_color_en_otro_sitio():
 def test_fitness_color_incorrecto():
 
     solucion = ["rojo", "azul", "verde", "amarillo"]
-    individuo = ["negro", "negro", "negro", "negro"]
+    cromosoma = ["negro", "negro", "negro", "negro"]
 
-    fitness = calcular_fitness(individuo, solucion)
+    fitness = calcular_fitness(cromosoma, solucion)
 
     assert fitness == 0
 

@@ -1,9 +1,9 @@
 from src.parametros import *
-def calcular_fitness(individuo,solucion):
+def calcular_fitness(cromosoma,solucion):
     fitness = 0
-    for i in range(len(individuo)):
-        if individuo[i] == solucion[i]:
+    for i in range(len(cromosoma)):
+        if cromosoma[i] == solucion[i]:
             fitness += 2
-        elif individuo[i] in solucion:
+        elif cromosoma[i] in solucion:
             fitness += 1
     return fitness

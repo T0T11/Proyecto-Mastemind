@@ -12,10 +12,10 @@ def main():
     poblacion = generar_poblacion()
 
     for gen in range(1, NUMERO_INTENTOS + 1):
-        mejor_individuo = max(poblacion, key=lambda ind: calcular_fitness(ind, solucion))
-        mejor_fitness = calcular_fitness(mejor_individuo, solucion)
+        mejor_cromosoma = max(poblacion, key=lambda ind: calcular_fitness(ind, solucion))
+        mejor_fitness = calcular_fitness(mejor_cromosoma, solucion)
 
-        print(f"Generación {gen}: Mejor individuo: {mejor_individuo} | Fitness: {mejor_fitness}")
+        print(f"Generación {gen}: Mejor individuo: {mejor_cromosoma} | Fitness: {mejor_fitness}")
 
         if mejor_fitness == 8:
             print("¡Solución encontrada!")
