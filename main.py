@@ -11,7 +11,6 @@ def main():
     solucion = generar_solucion()
     print(f"Solución: {cromosoma_emojis(solucion)}")
     poblacion = generar_poblacion()
-
     for generacion in range(1, NUMERO_INTENTOS + 1):
         mejor_cromosoma = max(poblacion, key=lambda ind: calcular_fitness(ind, solucion))
         negras, blancas, fichas = calcular_fichas(mejor_cromosoma, solucion)
@@ -20,7 +19,6 @@ def main():
         if negras == NUMERO_GENES:
             print("¡Solución encontrada!")
             break
-
         padres = seleccionar_padres(poblacion, solucion)
         descendencia = reproducir_descendencia(padres, num_padres)
         poblacion = poblar_siguiente_generacion(poblacion, descendencia, solucion)

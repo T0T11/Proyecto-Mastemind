@@ -1,5 +1,6 @@
 import random
 from src.parametros import *
+
 def cruzar(padre1, padre2):
     punto_cruce = len(padre1) // 2
     return padre1[:punto_cruce] + padre2[punto_cruce:]

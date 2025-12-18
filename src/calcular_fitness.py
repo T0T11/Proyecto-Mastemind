@@ -1,21 +1,18 @@
 from src.parametros import *
-def calcular_fichas(cromosoma,solucion):
 
+def calcular_fichas(cromosoma,solucion):
     sol = solucion.copy()
     fichas = ["  "] * NUMERO_GENES
-
     for i in range(len(cromosoma)):
         if cromosoma[i] == solucion[i]:
             fichas[i] = "⚫"
             sol[i] = "  "
-    
     for i in range(len(cromosoma)):
         if fichas[i] == "⚫":
             continue
         if cromosoma[i] in sol:
             fichas[i] = "⚪"
             sol[sol.index(cromosoma[i])] = "  "
-
     negras = fichas.count("⚫")
     blancas = fichas.count("⚪")
     return negras, blancas, fichas

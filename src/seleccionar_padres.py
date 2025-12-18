@@ -6,7 +6,6 @@ def seleccionar_padres(poblacion, solucion):
     fitnesses = [ 
         calcular_fitness(ind,solucion) for ind in poblacion
     ]
-
     padres = random.choices(
         poblacion,
         fitnesses,
