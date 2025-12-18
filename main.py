@@ -13,10 +13,10 @@ def main():
     poblacion = generar_poblacion()
     for generacion in range(1, NUMERO_INTENTOS + 1):
         mejor_cromosoma = max(poblacion, key=lambda ind: calcular_fitness(ind, solucion))
-        negras, blancas, fichas = calcular_fichas(mejor_cromosoma, solucion)
+        _, _, fichas = calcular_fichas(mejor_cromosoma, solucion)
         fitness = calcular_fitness(mejor_cromosoma, solucion)
         mostrar_feedback(mejor_cromosoma, fichas, generacion, fitness)
-        if negras == NUMERO_GENES:
+        if fitness == 8:
             print("¡Solución encontrada!")
             break
         padres = seleccionar_padres(poblacion, solucion)
