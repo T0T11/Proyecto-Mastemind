@@ -2,4 +2,4 @@ import random
 from src.parametros import *
 
 def generar_solucion():
-    return [random.choice(ALELOS) for i in range(GEN)]
+    return [random.choice(ALELOS) for i in range(NUMERO_GENES)]
