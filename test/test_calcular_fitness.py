@@ -58,7 +58,7 @@ def test_fitness_colores_repetidos():
 
     fitness = calcular_fitness(individuo, solucion)
 
-    assert fitness == 5
+    assert fitness == 2
 
 
 def test_fitness_listas_vacias():

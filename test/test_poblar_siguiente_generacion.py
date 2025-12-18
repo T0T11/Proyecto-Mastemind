@@ -1,5 +1,5 @@
 from src.poblar_siguiente_generacion import poblar_siguiente_generacion
-from src.parametros import TAMAÑO_POBLACION, ALELOS, GEN
+from src.parametros import *
 
 def test_poblar_siguiente_generacion_tamano_y_dominio():
     poblacion_actual = [
@@ -21,7 +21,7 @@ def test_poblar_siguiente_generacion_tamano_y_dominio():
 
     # 2) Cada individuo tiene el tamaño correcto y genes válidos
     for ind in nueva:
-        assert len(ind) == GEN
+        assert len(ind) == NUMERO_GENES
     for gen in ind:
         assert gen in ALELOS
 

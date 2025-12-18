@@ -16,7 +16,7 @@ def test_reproducir_descendencia_longitud_hijo():
     ]
     hijos = reproducir_descendencia(padres, 2)
     for hijo in hijos:
-        assert len(hijo) == GEN
+        assert len(hijo) == NUMERO_GENES
 
 def test_reproducir_descendencia_colores_validos():
     padres = [
@@ -49,7 +49,7 @@ def test_mutar():
 
     assert isinstance(mutado, list)
 
-    assert len(mutado) == GEN
+    assert len(mutado) == NUMERO_GENES
 
     for color in mutado:
         assert color in ALELOS
