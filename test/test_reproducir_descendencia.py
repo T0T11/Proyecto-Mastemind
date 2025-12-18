@@ -1,4 +1,3 @@
-import pytest
 from src.parametros import *
 from src.reproducir_descendencia import *
 
@@ -17,7 +16,7 @@ def test_reproducir_descendencia_longitud_hijo():
     ]
     hijos = reproducir_descendencia(padres, 2)
     for hijo in hijos:
-        assert len(hijo) == TAMAÑO_CODIGO
+        assert len(hijo) == NUMERO_GENES
 
 def test_reproducir_descendencia_colores_validos():
     padres = [
@@ -27,7 +26,7 @@ def test_reproducir_descendencia_colores_validos():
     hijos = reproducir_descendencia(padres, 2)
     for hijo in hijos:
         for color in hijo:
-            assert color in COLORES
+            assert color in ALELOS
 
 def test_cruzar_a_mitad():
 
@@ -44,13 +43,13 @@ def test_cruzar_a_mitad():
 
 
 def test_mutar():
-    individuo = ["negro", "rojo", "azul", "amarillo"]
+    cromosoma = ["negro", "rojo", "azul", "amarillo"]
     
-    mutado = mutar(individuo)
+    mutado = mutar(cromosoma)
 
     assert isinstance(mutado, list)
 
-    assert len(mutado) == TAMAÑO_CODIGO
+    assert len(mutado) == NUMERO_GENES
 
     for color in mutado:
-        assert color in COLORES
+        assert color in ALELOS

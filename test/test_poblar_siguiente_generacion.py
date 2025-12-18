@@ -1,5 +1,5 @@
 from src.poblar_siguiente_generacion import poblar_siguiente_generacion
-from src.parametros import TAMAÑO_POBLACION, COLORES, TAMAÑO_CODIGO
+from src.parametros import *
 
 def test_poblar_siguiente_generacion_tamano_y_dominio():
     poblacion_actual = [
@@ -21,9 +21,9 @@ def test_poblar_siguiente_generacion_tamano_y_dominio():
 
     # 2) Cada individuo tiene el tamaño correcto y genes válidos
     for ind in nueva:
-        assert len(ind) == TAMAÑO_CODIGO
+        assert len(ind) == NUMERO_GENES
     for gen in ind:
-        assert gen in COLORES
+        assert gen in ALELOS
 
     # 3) Los individuos seleccionados provienen de la población total (por igualdad de contenido)
     poblacion_total = poblacion_actual + descendencia

@@ -1,5 +1,5 @@
 import random
-from parametros import *
+from src.parametros import *
 
 def generar_poblacion():
-   return [[random.choice(COLORES)for i in range(TAMAÑO_CODIGO) ] for i in range(TAMAÑO_POBLACION)]
+   return [[random.choice(ALELOS)for i in range(NUMERO_GENES) ] for i in range(TAMAÑO_POBLACION)]

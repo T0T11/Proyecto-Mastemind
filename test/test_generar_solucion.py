@@ -1,4 +1,3 @@
-import pytest
 from src.parametros import *
 from src.generar_solucion import *
 

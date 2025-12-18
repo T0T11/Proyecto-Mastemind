@@ -1,5 +1,5 @@
-from calcular_fitness import calcular_fitness
-from parametros import num_padres
+from src.calcular_fitness import calcular_fitness
+from src.parametros import num_padres
 import random
 
 def seleccionar_padres(poblacion, solucion):

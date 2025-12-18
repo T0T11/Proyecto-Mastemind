@@ -1,7 +1,6 @@
 import random
-from parametros import *
-from calcular_fitness import calcular_fitness
-from reproducir_descendencia import *
+from src.parametros import *
+from src.calcular_fitness import calcular_fitness
 
 def poblar_siguiente_generacion(poblacion_actual, descendencia, solucion):
 
@@ -18,5 +17,5 @@ def poblar_siguiente_generacion(poblacion_actual, descendencia, solucion):
         k = TAMAÑO_POBLACION
     )
 
-    return [individuo[:] for individuo in nueva_poblacion]
+    return [cromosoma[:] for cromosoma in nueva_poblacion]
                                         
