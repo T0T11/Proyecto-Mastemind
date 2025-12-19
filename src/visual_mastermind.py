@@ -21,10 +21,17 @@ def cromosoma_emojis(cromosoma):
 def mostrar_feedback(cromosoma, fichas, generacion, fitness):
     cromosoma_str = cromosoma_emojis(cromosoma)
     fichas_str = "".join(fichas)
-
-    print(
-        f'Generación {generacion}: '
-        f'{cromosoma_str} | '
-        f'Fitness: {fitness} | '
-        f'{fichas_str}'
-    )
+    if generacion < 10:
+        print(
+            f'Generación 0{generacion}: '
+            f'{cromosoma_str} | '
+            f'Fitness: {fitness} | '
+            f'{fichas_str}'
+        )
+    else:
+        print(
+            f'Generación {generacion}: '
+            f'{cromosoma_str} | '
+            f'Fitness: {fitness} | '
+            f'{fichas_str}'
+        )
