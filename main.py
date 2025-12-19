@@ -9,7 +9,7 @@ from src.visual_mastermind import mostrar_feedback, cromosoma_emojis
 
 def main():
     solucion = generar_solucion()
-    print(f"\nSOLUCIÓN:      {cromosoma_emojis(solucion)}\n")
+    print(f"\nSOLUCIÓN ----> {cromosoma_emojis(solucion)}\n")
     poblacion = generar_poblacion()
     for generacion in range(1, NUMERO_INTENTOS + 1):
         mejor_cromosoma = max(poblacion, key=lambda ind: calcular_fitness(ind, solucion))
