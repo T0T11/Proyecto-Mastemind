@@ -36,7 +36,10 @@ Somos alumnos de Desarollo de Aplicaciones Multiplataforma del IES de Teis. Hici
 Manual
 
 Pre-requisitos
-
+ requiere python = >=3.11
+ requiere pipx 1.8.0 o mayor
+ Entorno virtual ( opcional, pero muy recomedable)
+ las dependencias listadas en pyproject.toml
 
 
 Instalación
