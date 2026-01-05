@@ -1,5 +1,6 @@
 - [Introduccion](#introduccion)
 - [Manual](#manual)
+    - [Pre-requisitos](#pre-requisitos)
     - [Instalación](#instalación)
     - [Uso](#uso)
 - [Metodología](#metodología)
@@ -17,7 +18,7 @@
     - [Test de unidad](#test-de-unidad)
     - [Test de integracion](#test-de-integracion)
 - [Analisis del tiempo invertido](#analisis-del-tiempo-invertido)
-    - [Wakatime](#wakatime)
+    - [Clokify + Wakatime](#clokify-+-wakatime)
     - [Justificacion temporal](justificacion-temporal)
 - [Uso de la IA](#uso-de-la-ia)
 - [Coinclusion](#conclusion)
@@ -27,11 +28,19 @@
         
 Introducción
 
-...
+Tomas Santiago Orellano - @T0T11
+Jorge Pazos Domiguez - @jrgeepd
+
+Somos alumnos de Desarollo de Aplicaciones Multiplataforma del IES de Teis. Hicimos este proyecto con el fin de demostrar nuestro aprendizaje en python,markdown y git.
 
 Manual
 
+Pre-requisitos
+
+
+
 Instalación
+
 
 ...
 
@@ -93,7 +102,7 @@ Test de integración
 
 Análisis del tiempo invertido
 
-Wakatime
+ Clokify + Wakatime
 
 ...
 
