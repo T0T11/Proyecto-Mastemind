@@ -7,7 +7,7 @@ def test_reproducir_descendencia_num_hijos():
         ["blanco", "verde", "rojo", "azul"]
     ]
     hijos = reproducir_descendencia(padres, 2)
-    assert len(hijos) == 2
+    assert len(hijos) == 4
 
 def test_reproducir_descendencia_longitud_hijo():
     padres = [

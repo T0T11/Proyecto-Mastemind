@@ -8,6 +8,6 @@ dependencies = [
     "pytest>=9.0.1",
     "pytest-sugar>=1.1.1",
     "wakatime>=14.0.1",
-    "pygad >= 3.5.0 "
+    "pygad >= 3.5.0 ",
     "matplotlib >= 3.10.8 "
     ]
