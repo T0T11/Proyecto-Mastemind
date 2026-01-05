@@ -43,9 +43,9 @@ Pre-requisitos
 
 
 Instalación
-
-
-...
+    Windows
+ Con el entorno virtual ya hecho(python -m venv venv),activado (.\venv\Scripts\Activate) y con tu sesion de github logeada, escribes:
+ git clone https://github.com/T0T11/Proyecto-Mastemind  
 
 Uso
 
