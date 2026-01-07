@@ -67,37 +67,37 @@ Requisitos funcionales/no funcionales
 
 Historias de usuario
 
-    ## Historia de Usuario 1 – Generación del código secreto 
+## Historia de Usuario 1 – Generación del código secreto 
  como el jugador quiero que el sistema genere un código secreto de 4 colores aleatoriamente al inicio, con el fin de adivinarlo posteriormente.
  ### Criterios de aceptación 
     El código secreto se debera generar aleatoriamente solo entre los colores disponibles. 
     La longitud del código debe de no poder alterarse (por defecto, 4). 
     El código se debe de  mantener oculto hasta que la máquina adivine o termine la partida.
-    ## Historia de Usuario 2 -  Visualizar las posibles combinaciones
+## Historia de Usuario 2 -  Visualizar las posibles combinaciones
  Como usuario quiero ver las combinaciones que propone la máquina en cada generación con el fin de ver la aproximacion y optimizacion del algoritmo genetico.
  ### Criterios de aceptación 
     Cada generación debe mostrarse en consola  con la mejor combinación propuesta y su valor de fitness.
     Se  debe indicar el número de generación correspondiente.
-    ## Historia de Usuario 3 - Evaluación de fitness
+## Historia de Usuario 3 - Evaluación de fitness
  Como desarrollador quiero que la  función fitness  compare cada cromosoma(el intento) con el código secreto, para que el algoritmo genético pueda seleccionar las mejores combinaciones.
  ### Criterios de aceptación
     La función debe devolver en pantalla los aciertos exactos (tanto en color y  como en posición).
     La funcion debe poder contar los aciertos de color pero en la posicion incorrecta con el  fin de ayudar al algoritmo genetico.
-    ## Historia de Usuario 4 - Seleccion de padres
+## Historia de Usuario 4 - Seleccion de padres
  Como desarrollador quiero que el algoritmo filtre a los mejores individuos, con el fin de que, posteriormente, la descendencia de estos este mas cerca del codigo secreto.
  ### Criterios de aceptación
     Se debe seleccionar la mitad de la poblacion para la reproduccion.
     La seleccion de la descendencia se debe medir por su valor fitnesss.
-    ## Historia de Usuario 5 - Cruce de individuos
+## Historia de Usuario 5 - Cruce de individuos
  Como desarrolador quiero que el algoritmo cruce dos padres para la generacion de dos hijos, para asi, con el nivel de fitness que tienen los padres, tengan un fitness mayor los hijos.
  ### Criterios de aceptación
     el cruce debe devolver dos hijos fruto del curce de los dos padres.
-    ## Historia de Usuario 6 - La posible mutacion.
+## Historia de Usuario 6 - La posible mutacion.
  Como desarrolador, quiero una funcion de mutacion que deba cambiar de forma aleatoria un color del individuo en base a una probabilidad con el fin de tener diversidad genetica y evitar el estancamiento del algoritmo.
  ### Criterios de aceptación
     El color mutado debe de estar en las posibles probabilidades del color que puede albergar el cromosoma.
     Se deben poder mutar todas las posiciones.
-    ## Historia de Usuario 7 - Ejecucion del Algoritmo Genetico en su totalidad
+## Historia de Usuario 7 - Ejecucion del Algoritmo Genetico en su totalidad
  Como usuario, quiero que la maquina ejecute el algoritmo genetico hasta adivinar el codigo secreto o hasta alcanzar el limite de intentos, con el fin de ver el proceso de como evoluciona el algoritmo genetico.
  ### Criterios de aceptación
     El algoritmo debe de detenerse si la maquina adivina el codigo.
