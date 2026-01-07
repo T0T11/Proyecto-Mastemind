@@ -5,67 +5,59 @@
     - [Uso](#uso)
 - [Metodología](#metodología)
 - [Descripción técnica](#descripción-técnica)
-    - [Requisitos funcionales/no funcionales](#requisitos-funcionalesno-funcionales)
     - [Historias de usuario](#historias-de-usuario)
     - [Arquitectura de la aplicación](#arquitectura-de-la-aplicación)
 - [Diseño](#diseño)
     - [Diagrama de Componentes](#diagrama-de-componentes)
 - [Implementación](#implementación)
     - [Tecnologías y Herramientas utilizadas](#tecnologías-y-herramientas-utilizadas)
-    - [Backend](#backend)
 - [Pruebas](#pruebas)
-    - [Coverage](#coverage)
     - [Test de unidad](#test-de-unidad)
-    - [Test de integracion](#test-de-integracion)
-- [Analisis del tiempo invertido](#analisis-del-tiempo-invertido)
-    - [Clokify + Wakatime](#clokify-+-wakatime)
-    - [Justificacion temporal](justificacion-temporal)
+- [Análisis del tiempo invertido](#análisis-del-tiempo-invertido)
+    - [Wakatime](#wakatime)
+    - [Justificación temporal](#justificación-temporal)
 - [Uso de la IA](#uso-de-la-ia)
-- [Coinclusion](#conclusion)
+- [Coinclusión](#conclusión)
     - [Posibles mejoras](#posibles-mejoras)
     - [Dificultades](#dificultades)
 
 
-Introducción
+# Introducción
 
 Tomas Santiago Orellano - @T0T11
 Jorge Pazos Domiguez - @jrgeepd
 
 Somos alumnos de Desarollo de Aplicaciones Multiplataforma del IES de Teis. Hicimos este proyecto con el fin de demostrar nuestro aprendizaje en python,markdown y git.
 
-Manual
+# Manual
 
-Pre-requisitos
+## Pre-requisitos
  requiere python = >=3.11
  requiere pipx 1.8.0 o mayor
  Entorno virtual ( opcional, pero muy recomedable)
  las dependencias listadas en pyproject.toml
 
 
-Instalación Windows/Linux
+## Instalación
 Con el entorno virtual ya hecho (python -m venv venv), activado (.venv\Scripts\Activate) y con tu sesion de github logeada, escribes:  
 `git clone https://github.com/T0T11/Proyecto-Mastemind`
 
 mas tarde con uv ya instalado siguiendp los pasos de la web: https://docs.astral.sh/uv/getting-started/installation/ para descargar las dependencias del proyecto escribes:  
 `uv sync` en la terminal
 
-Uso
+## Uso
 
 el uso de la aplicacion es mediante la terminal con el comando `python main.py` en windows o `python3 main.py` en linux
 
-Metodología
+# Metodología
 
 La metodología que hemos usado en estre proyecto ha sido el **TDD** con una especie de scrum que nos ofrece github a partir de las historias de usuario llamado **panel kanban**
 
 Hemos escrito los casos test para poder pensar en el codigo y aparte nos hemos puesto como meta terminar las historias de usuario
 
-Descripción técnica
+# Descripción técnica
 
-Requisitos funcionales/no funcionales
-
-...
-
-Historias de usuario
+## Historias de usuario
 
 ## Historia de Usuario 1 – Generación del código secreto 
  como el jugador quiero que el sistema genere un código secreto de 4 colores aleatoriamente al inicio, con el fin de adivinarlo posteriormente.
@@ -105,13 +97,13 @@ Historias de usuario
     Se debe mostrar los intentos que va haciendo la maquina para ver la evolucion del el algoritmo,
  
 
-Arquitectura de la aplicación
+## Arquitectura de la aplicación
 
 la aplicación tiene una arquitectura modular en la que cada archivo tiene su responsabilidad
 
-Diseño
+# Diseño
 
-Diagrama de Componentes
+## Diagrama de Componentes
 
 ```
 Proyecto-Mastermind  
@@ -134,9 +126,9 @@ Proyecto-Mastermind
     └── graficos.py
 ```
 
-Implementación
+# Implementación
 
-Tecnologías y Herramientas utilizadas
+## Tecnologías y Herramientas utilizadas
 
 Python
 
@@ -144,9 +136,9 @@ Pytest Es un framework para facilitar y realizar los casos test para que sean m�
 
 pytest-sugar Es un plugin para mostrar de manera intuitiva los errores y fallos cometidos en nuestros test para mayor legibilidad Referencia
 
-Pruebas
+# Pruebas
 
-Test de unidad
+## Test de unidad
 
 todos los test usados han sido de unicidad:
 ```console
@@ -169,26 +161,46 @@ Results (0.07s):
 ```
 
 
-Análisis del tiempo invertido
+# Análisis del tiempo invertido
 
- Clokify + Wakatime
+## Wakatime
 
-...
+Jorge
 
-Justificación temporal
+![](/img/Captura%20de%20pantalla%202026-01-07%20184041.png)
+![](/img/Captura%20de%20pantalla%202026-01-07%20184058.png)
 
-...
+Tomás
 
-Uso de la IA
+![](/img/unnamed.png)
+![](/img/unnamed2.png)
 
-...
+## Justificación temporal
 
-Conclusión
+El proyecto se desarrolló de forma progresiva y flexible, realizándose mayoritariamente durante las sesiones de clase. El trabajo se fue ajustando sobre la marcha conforme avanzaba el aprendizaje, destinándose la última semana principalmente a la elaboración y revisión de la documentación final.
 
-Posibles mejoras
+# Uso de la IA
 
-...
+Durante el desarrollo del proyecto se utilizó una herramienta de Inteligencia Artificial generativa como apoyo al aprendizaje y al desarrollo del trabajo. Esta IA se empleó principalmente para resolver dudas conceptuales, orientar la estructura del proyecto, mejorar la comprensión del código y ayudar en la redacción de la documentación, sin sustituir en ningún momento el trabajo práctico ni la toma de decisiones por parte del alumnado
 
-Dificultades
+# Conclusión
 
-...
+El proyecto ha permitido aplicar de forma práctica los conocimientos adquiridos durante el curso, desarrollando una solución funcional para el juego Mastermind. A través de su implementación se ha reforzado la comprensión de conceptos como la lógica de programación, la resolución de problemas y el trabajo estructurado.
+
+Asimismo, el desarrollo del proyecto ha favorecido el aprendizaje progresivo, la adaptación ante dificultades y la importancia de la documentación como parte final del proceso. En conjunto, el proyecto cumple los objetivos planteados y constituye una experiencia útil tanto a nivel técnico como formativo.
+
+## Posibles mejoras
+
+- Optimizar el algoritmo para reducir el número de intentos necesarios para resolver el juego.
+
+- Mejorar la interfaz de usuario para hacer el programa más intuitivo y visual.
+
+- Permitir distintos niveles de dificultad modificando la longitud del código o el número de colores.
+
+- Añadir un sistema de estadísticas para analizar el rendimiento del algoritmo.
+
+- Ampliar la documentación y comentarios del código para facilitar su mantenimiento.
+
+## Dificultades
+
+Las principales dificultades fueron la comprensión inicial del problema, la depuración del código y la organización del tiempo
