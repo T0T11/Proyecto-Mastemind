@@ -11,12 +11,12 @@ def graficos():
     def colores_a_indices(colores):
         return [ALELOS.index(c) for c in colores]
 
-    solucion_color = generar_solucion()
-    solucion_indices = colores_a_indices(solucion_color)
+    solucion_secreta = generar_solucion()
+    solucion_indices = colores_a_indices(solucion_secreta)
 
-    def fitness_func(ga_instance,solution, solution_idx): 
-        cromosoma_colores = indices_a_colores(solution) 
-        negras, blancas, _ = calcular_fichas(cromosoma_colores, solucion_color) 
+    def fitness_func(ga_instance,solucion_en_int, solution_idx): 
+        cromosoma_colores = indices_a_colores(solucion_en_int) 
+        negras, blancas, _ = calcular_fichas(cromosoma_colores, solucion_secreta) 
         fitness = negras * 2 + blancas 
         return fitness
 
@@ -39,7 +39,7 @@ def graficos():
     best_solution, best_fitness, best_idx = ga_instance.best_solution()
     best_solution_colores = indices_a_colores(best_solution)
 
-    print("Solucion real:           ", solucion_color)
+    print("Solucion real:           ", solucion_secreta)
     print("Mejor solucion encontrada:", best_solution_colores)
     print("Fitness:", best_fitness)
 
