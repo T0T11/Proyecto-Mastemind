@@ -169,17 +169,17 @@ Tomás
 
 ## Justificación temporal
 
-Aunque el proyecto empezo conuna leve dificultad, tanto mi compañero y yo faltamos las dos primeras clases,  se pudo desarrolar de forma progresiva y flexible, realizándose mayoritariamente durante las sesiones de clase. El trabajo se fue ajustando sobre la marcha conforme avanzaba el aprendizaje, destinándose la última semana principalmente a la elaboración y revisión de la documentación final. 
+Aunque el proyecto empezo conuna leve dificultad, tanto mi compañero y yo faltamos las dos primeras clases,  se pudo desarrolar de forma progresiva y flexible, realizándose mayoritariamente durante las sesiones de clase y una leve parte en vacaciones. El trabajo se fue ajustando sobre la marcha conforme avanzaba el aprendizaje, destinándose la última semana principalmente a la elaboración y revisión de la documentación final. 
 
 # Uso de la IA
 
-Durante el desarrollo del proyecto se utilizó una herramienta de Inteligencia Artificial generativa como apoyo al aprendizaje y al desarrollo del trabajo. Esta IA se empleó principalmente para resolver dudas conceptuales, orientar la estructura del proyecto, mejorar la comprensión del código y ayudar en la redacción de la documentación, sin sustituir en ningún momento el trabajo práctico ni la toma de decisiones por parte del alumnado
+Durante el desarrollo del proyecto se utilizó una herramienta de Inteligencia Artificial generativa como apoyo al aprendizaje y al desarrollo del trabajo. La herramienta de IA que se utilizo fue Chatgpt y Copilot, estas IA's se emplearon principalmente para resolver dudas conceptuales(como el hecho si utilizar UV o otro entorno virtual), orientar la estructura del proyecto(cuantos modulos del proyecto haciamos sin que se quite la caracteristica de "single responsability" o que libreria de python era la mas conveniente para la creacion de la logica del juego,de su grafico y su representacion por consola), mejorar la comprensión del código(si era necesario cambiar el nombre de una variable) ,la resolucion de algun error  que nos llegara a devolver la terminal , y ayudar en la redacción de la documentación. Como dicho anteriormente empleamos el feedback que nos dio la IA de manera que refresque nuestros conocimientos anteriormente dichos. En cuanto a el feedback que nos devolvia la terminal, decidimos invertir un leve tiempo en comprender y entender el error para que no nos vuelva a suceder en futuros proyectos.
 
 # Conclusión
 
-El proyecto ha permitido aplicar de forma práctica los conocimientos adquiridos durante el curso, desarrollando una solución funcional para el juego Mastermind. A través de su implementación se ha reforzado la comprensión de conceptos como la lógica de programación, la resolución de problemas y el trabajo estructurado.
+El proyecto ha permitido aplicar de forma práctica los conocimientos adquiridos durante el curso, desarrollando una solución funcional para el juego Mastermind. A través de su implementación se ha reforzado la comprensión de conceptos como la lógica de programación, la resolución de problemas , el trabajo estructurado y el manejo del tiempo invertido en el proyecto.
 
-Asimismo, el desarrollo del proyecto ha favorecido el aprendizaje progresivo, la adaptación ante dificultades y la importancia de la documentación como parte final del proceso. En conjunto, el proyecto cumple los objetivos planteados y constituye una experiencia útil tanto a nivel técnico como formativo.
+Asimismo, el desarrollo del proyecto ha favorecido el aprendizaje progresivo, la adaptación ante dificultades y la importancia de la documentación como parte final del proceso. En conjunto, el proyecto cumple los objetivos planteados y constituye una experiencia útil tanto a nivel técnico como formativo ayudandonos en nuestro camino como programadores.
 
 ## Posibles mejoras
 
@@ -195,4 +195,4 @@ Asimismo, el desarrollo del proyecto ha favorecido el aprendizaje progresivo, la
 
 ## Dificultades
 
-Las principales dificultades fueron la comprensión inicial del problema, la depuración del código y la organización del tiempo
+Las principales dificultades fueron la comprensión inicial del problema, la depuración  y la legibilidad del codigo , la  organización del tiempo y llegar a un acuerdo entre nosotros dos.
