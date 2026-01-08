@@ -56,6 +56,15 @@ La metodología que hemos usado en estre proyecto ha sido el **TDD** con una esp
 Hemos escrito los casos test para poder pensar en el codigo y aparte nos hemos puesto como meta terminar las historias de usuario
 
 # Descripción técnica
+|   List (Implementado) O "ON SCOPE"               |  Not List (No implementado) O "Out of scope"        | Unresolved
+|--------------------------------------------------------------------------------------------------------|----------------------|
+|  Generacion del codigo Secreto                   | Selección por torneo                                | Modo versus o modo multijugador
+| Seleccion de los individuos por ruleta de pesos  | Uso de  Elitismo                                    | Logging detallado por generación
+| Cálculo de fichas negras y blancas               |  Interfaz gráfica para jugar Mastermind             | Exportación automática de resultados 
+| Gráfico de evolución del fitness                 |                                                     |
+| Visualizacion de intentos por consola            |                                                     |
+|  Separación modular                              |                                                     |
+| Historias de usuario documentadas                |                                                     |
 
 ## Historias de usuario
 
