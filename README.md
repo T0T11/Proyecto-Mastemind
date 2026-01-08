@@ -188,7 +188,8 @@ Tomás
 
 ## Justificación temporal
 
-El proyecto se desarrolló de forma progresiva y flexible, realizándose mayoritariamente durante las sesiones de clase. El trabajo se fue ajustando sobre la marcha conforme avanzaba el aprendizaje, destinándose la última semana principalmente a la elaboración y revisión de la documentación final.
+Aunque el proyecto empezo conuna leve dificultad, tanto mi compañero y yo faltamos las dos primeras clases,  se pudo desarrolar de forma progresiva y flexible, realizándose mayoritariamente durante las sesiones de clase. El trabajo se fue ajustando sobre la marcha conforme avanzaba el aprendizaje, destinándose la última semana principalmente a la elaboración y revisión de la documentación final. 
+Al princpio utilizamos la metodologia del Pair Programing debido a que creemos que trabajamos mejor asi, despues de hacer la parte "mas densa" del projecto en clase y siguiendo la metodologia anteriormente dicha, nos repartimos el trabajo en casa sumado a un pequeño feedback que nos haciamos mediante mensaje de texto 
 
 # Uso de la IA
 
