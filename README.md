@@ -51,7 +51,7 @@ el uso de la aplicacion es mediante la terminal con el comando `python main.py` 
 
 # Metodología
 
-La metodología que hemos usado en estre proyecto ha sido el **TDD** con una especie de scrum que nos ofrece github a partir de las historias de usuario llamado **panel kanban**
+Al princpio utilizamos la metodologia del Pair Programing debido a que creemos que trabajamos mejor asi, despues de hacer la parte "mas densa" del projecto en clase y siguiendo la metodologia anteriormente dicha, nos repartimos el trabajo en casa sumado a un pequeño feedback que nos haciamos mediante mensaje de texto .Posteriormente se uso la metodología del **TDD** con una especie de scrum que nos ofrece github a partir de las historias de usuario llamado **panel kanban**
 
 Hemos escrito los casos test para poder pensar en el codigo y aparte nos hemos puesto como meta terminar las historias de usuario
 
@@ -116,26 +116,7 @@ la aplicación tiene una arquitectura modular en la que cada archivo tiene su re
 
 ## Diagrama de Componentes
 
-```
-Proyecto-Mastermind  
-│  
-├── Punto de entrada
-│   │
-├── main.py  
-│
-├── Componentes  
-│   ├── parametros.py  
-│   ├── generar_poblacion.py  
-│   ├── calcular_fitness.py  
-│   ├── seleccionar_padres.py  
-│   ├── reproducir_descendencia.py  
-│   ├── poblar_siguiente_generacio.py  
-│   └── generar_solucion.py  
-│  
-└── Visualizacion  
-    ├── visual_mastermind.py  
-    └── graficos.py
-```
+![](/img/Diagrama%20Proyecto%20Mastermind.png)
 
 # Implementación
 
@@ -189,7 +170,6 @@ Tomás
 ## Justificación temporal
 
 Aunque el proyecto empezo conuna leve dificultad, tanto mi compañero y yo faltamos las dos primeras clases,  se pudo desarrolar de forma progresiva y flexible, realizándose mayoritariamente durante las sesiones de clase. El trabajo se fue ajustando sobre la marcha conforme avanzaba el aprendizaje, destinándose la última semana principalmente a la elaboración y revisión de la documentación final. 
-Al princpio utilizamos la metodologia del Pair Programing debido a que creemos que trabajamos mejor asi, despues de hacer la parte "mas densa" del projecto en clase y siguiendo la metodologia anteriormente dicha, nos repartimos el trabajo en casa sumado a un pequeño feedback que nos haciamos mediante mensaje de texto 
 
 # Uso de la IA
 
