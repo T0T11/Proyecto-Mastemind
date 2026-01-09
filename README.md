@@ -53,6 +53,8 @@ el uso de la aplicacion es mediante la terminal con el comando `python main.py` 
 
 Al princpio utilizamos la metodologia del Pair Programing debido a que creemos que trabajamos mejor asi, despues de hacer la parte "mas densa" del projecto en clase y siguiendo la metodologia anteriormente dicha, nos repartimos el trabajo en casa sumado a un pequeño feedback que nos haciamos mediante mensaje de texto .Posteriormente se uso la metodología del **TDD** con una especie de scrum que nos ofrece github a partir de las historias de usuario llamado **panel kanban**
 
+[Panel Kanban](https://github.com/users/T0T11/projects/1)
+
 Hemos escrito los casos test para poder pensar en el codigo y aparte nos hemos puesto como meta terminar las historias de usuario
 
 # Descripción técnica
