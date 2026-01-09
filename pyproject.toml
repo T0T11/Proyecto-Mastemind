@@ -1,11 +1,13 @@
 [project]
 name = "proyecto-mastemind"
 version = "0.1.0"
-description = "Add your description here"
+description = "Algoritmo genetico empleado para resolucion del juego Mastermind"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "pytest>=9.0.1",
     "pytest-sugar>=1.1.1",
     "wakatime>=14.0.1",
+    "pygad >= 3.5.0 ",
+    "matplotlib >= 3.10.8 "
     ]

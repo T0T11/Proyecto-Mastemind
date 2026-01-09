@@ -6,6 +6,7 @@ from src.reproducir_descendencia import reproducir_descendencia
 from src.poblar_siguiente_generacion import poblar_siguiente_generacion
 from src.calcular_fitness import calcular_fitness, calcular_fichas
 from src.visual_mastermind import mostrar_feedback, cromosoma_emojis
+from src.graficos import graficos
 
 def main():
     solucion = generar_solucion()
@@ -26,3 +27,4 @@ def main():
         
 if __name__ == "__main__":
     main()
+    graficos()
